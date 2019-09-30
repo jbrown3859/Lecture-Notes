@@ -31,18 +31,18 @@ Arg1:
 *jillJob=true;*  
 *billJob=true;*  
 *if(jillJob)*  
-*	jillCommutes=true;*  
+	*jillCommutes=true;*  
   
-* return jillCommutes || !jillCar*   
+*return jillCommutes || !jillCar*   
 
-** Arg1 is valid **
-* the terms on either side of the or are disjuncts*
-* inside the if is the anticedent, the result is the consequent*  
+**Arg1 is valid**
+*the terms on either side of the or are disjuncts*
+*inside the 'if' is the anticedent, the result is the consequent*  
 
 "A truth funtion operator takes booleans as inputs and delivers a boolean as an output."  
 
-* ! * : Negation: truth value flipper; * not *  
+*!* : Negation: truth value flipper; *not*  
 "Jill doesn't own a car"  
 turns into  
 "It is not the case that Jill owns a car"  
-* == !(jillCar) *
+*== !(jillCar)*
