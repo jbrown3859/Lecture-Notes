@@ -21,7 +21,7 @@ C. Jill commutes.
 
 
 
-Arguments are valid as long as it ** absolutely impossible ** for all the premises to be true while the conclusion is false.
+Arguments are valid as long as it **absolutely impossible** for all the premises to be true while the conclusion is false.
 Countermodel: A possibilty where all the premises are true and the conclusion is false.
 *if all premises are false and the conclusion is true, one cannot determine validity*  
 
