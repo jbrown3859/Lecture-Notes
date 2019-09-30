@@ -28,12 +28,12 @@ Countermodel: A possibilty where all the premises are true and the conclusion is
 
 Arg1:  
 
-*jillJob=true;*
-*billJob=true;*
-*if(jillJob)*
-*	jillCommutes=true;*
-
-* return jillCommutes || !jillCar 
+*jillJob=true;*  
+*billJob=true;*  
+*if(jillJob)*  
+*	jillCommutes=true;*  
+  
+* return jillCommutes || !jillCar*   
 
 ** Arg1 is valid **
 * the terms on either side of the or are disjuncts*
