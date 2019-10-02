@@ -52,3 +52,37 @@ turns into
 ### 10/2
 #### Reviewing how to submit problems sets
 * Submit to TA
+
+#### premises + conclusion = argument
+
+| type           | English form   | symbol    | CS equivalent |
+|----------------|----------------|-----------|---------------|
+| negation       | not            | ¬         | !             |
+| conjunction    | and            | /\        | &&            |
+| disjunction    | or             | \/        | ||            |
+| conditional    | if, then       | -->       | if            |
+| bi-conditional | if and only if | <->       | if            |
+
+*conditional vs bi-conditional? if jill has a job, she commutes. **vs** jill only commutes if she has a job*  
+
+1. Jill **and** Bill **both** have jobs  
+2. **If** Jill has a job, **then** she commutes  
+
+C. **Either** Jill commutes **or** she does**n't** have a car  
+
+
+##### Atomic Parts (smallest complete sentences inbetween logic separations):  
+*p: Jill has a job
+*q: Bill has a job  
+
+*p:Jill has a job
+*r: Jill commutes  
+
+*r: Jill commutes
+*s: Jill owns a car
+
+##### Replace with symbols
+(p /\ q)    ==    p && q
+(p --> r)   ==    if(p) { r }
+(r \/ ¬ s)  ==    r || !s  
+
