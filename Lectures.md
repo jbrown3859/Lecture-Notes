@@ -45,4 +45,10 @@ Arg1:
 "Jill doesn't own a car"  
 turns into  
 "It is not the case that Jill owns a car"  
-*== !(jillCar)*
+*== !(jillCar)*  
+
+
+
+### 10/2
+#### Reviewing how to submit problems sets
+* Submit to TA
