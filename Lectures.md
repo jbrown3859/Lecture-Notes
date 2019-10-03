@@ -96,15 +96,22 @@ Contrary: Both cant be true at once
 Contradictory: Only one is true  
 
 Page 27:
-		You are already familiar with the idea of parentheses and “order of operation”
-		from basic arithmetic. Consider the arithmetical expression ‘2+3*5’,
-		ignoring conventions governing the order of operations. What is its value? 25
-		or 17? It is (absent the disambiguating conventions we asked you to set aside)
-		undefined, as there are in fact two distinct functions that the term can be taken
-		to express, as follows: ‘(2+3)*5’ and ‘2+(3*5)’. The first is primarily a multiplication
-		function (with an addition function used to determine its first argument)
-		and the second primarily an addition function (with a multiplication function
-		used to determine its second argument). A true sentence results from adding
-		‘=25’ to the first and a false sentence results from adding the same to the second.
-		But adding ‘=25’ to the original, ambiguous expression results in neither
-		a true nor false sentence. 
+<blockquote>
+You are already familiar with the idea of parentheses and “order of operation”
+from basic arithmetic. Consider the arithmetical expression ‘2+3*5’,
+ignoring conventions governing the order of operations. What is its value? 25
+or 17? It is (absent the disambiguating conventions we asked you to set aside)
+undefined, as there are in fact two distinct functions that the term can be taken
+to express, as follows: ‘(2+3)*5’ and ‘2+(3*5)’. The first is primarily a multiplication
+function (with an addition function used to determine its first argument)
+and the second primarily an addition function (with a multiplication function
+used to determine its second argument). A true sentence results from adding
+‘=25’ to the first and a false sentence results from adding the same to the second.
+But adding ‘=25’ to the original, ambiguous expression results in neither
+a true nor false sentence. 
+</blockquote>  
+
+To find main operator:
+(¬(p^q)^r))  
+**The 2nd ^**  
+work from inside out and the last 2 place truth functional operator is the **main operator**
