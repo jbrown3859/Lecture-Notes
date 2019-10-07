@@ -56,12 +56,12 @@ turns into
 #### premises + conclusion = argument  
 Page 18:
 
-| type           | English form   | symbol    | CS equivalent | Example  |
-|----------------|----------------|-----------|---------------|----------|
-| negation       | not            | ¬         | !             | not      |
-| conjunction    | and            | ^         | &&            | but, and |
-| disjunction    | or             | v         | ||            | or       |
-| conditional    | if, then       | -->       | if            | if       |
+| type           | English form   | symbol    | CS equivalent | Example(25) |
+|----------------|----------------|-----------|---------------|-------------|
+| negation       | not            | ¬         | !             | not         |
+| conjunction    | and            | ^         | &&            | but, and    |
+| disjunction    | or             | v         | ||            | or          |
+| conditional    | if, then       | -->       | if            | if          |
 | bi-conditional | if and only if | <->       | if            | 
 
 *conditional vs bi-conditional? if jill has a job, she commutes. **vs** jill only commutes if she has a job*  
