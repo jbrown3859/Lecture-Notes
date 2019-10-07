@@ -114,4 +114,7 @@ a true nor false sentence.
 To find main operator:
 (¬(p^q)^r))  
 **The 2nd ^**  
-work from inside out and the last 2 place truth functional operator is the **main operator**
+work from inside out and the last 2 place truth functional operator is the **main operator**  
+
+
+### 10/7
