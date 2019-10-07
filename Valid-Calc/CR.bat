@@ -1,3 +1,3 @@
-javac *.javac
+javac *.java
 java validity ;
 pause

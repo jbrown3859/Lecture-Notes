@@ -125,8 +125,18 @@ Page 25:
 A only if B --> A <-> B
 
 
-Unless A, B = if not A, then B = (¬A -> B)
-
+Unless A, B = if not A, then B = (¬A -> B)  
+  
+    
+	
+Ex)  
+George is happy, unless he goes to work, in which case he doesn't get dessert.  
+p=George is happy  
+q=George goes to work  
+r=George gets dessert  
+p unless q in which case not r
+if not q then p and not r
+((¬q->p)^¬r)
 
 
 
