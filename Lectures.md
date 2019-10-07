@@ -122,12 +122,12 @@ work from inside out and the last 2 place truth functional operator is the **mai
 
 Page 25:
 <blockquote>
-Translating Material Conditionals
-A only if B => A -> B
-A if B => B -> A
-A when B => B -> A
-A provided B => B -> A
-A unless B; Unless B, A => ¬B -> A  
+Translating Material Conditionals  
+A only if B => A -> B  
+A if B => B -> A  
+A when B => B -> A  
+A provided B => B -> A  
+A unless B; Unless B, A => ¬B -> A    
   
 </blockquote>    
 	
@@ -136,8 +136,8 @@ Ex)
 p=George is happy  
 q=George goes to work  
 r=George gets dessert  
-p unless q in which case not r
-if not q then p and not r
+p unless q in which case not r  
+if not q then p and not r  
 **((¬q->p)^¬r)**, could also be **((¬q->p)^(q->¬r))**  
   
 Testing for grammaticality: pg 35  
@@ -147,16 +147,16 @@ Testing for grammaticality: pg 35
 ##### Scopes
 ¬(p^q), (¬p^q)  
 Base: p q  
-1:  (p^q)       ¬p
-2: ¬(p^q)      (¬p^q)  
+1:  (p^q)       ¬p  
+2: ¬(p^q)      (¬p^q)    
 
-**¬¬(¬p^(q->¬(r v ¬p)))**
-    1            1
-Base:p q r
-1: ¬p, ¬p
-2: (r v ¬p)
-3: ¬(r v ¬p)
-4: (q->¬(r v ¬p))
-5: (¬p^(q->¬(r v ¬p)))
-6: ¬(¬p^(q->¬(r v ¬p)))
-7: ¬¬(¬p^(q->¬(r v ¬p)))
+**¬¬(¬p^(q->¬(r v ¬p)))**  
+    1  5   43 2  1
+Base:p q r  
+1: ¬p, ¬p  
+2: (r v ¬p)  
+3: ¬(r v ¬p)  
+4: (q->¬(r v ¬p))  
+5: (¬p^(q->¬(r v ¬p)))  
+6: ¬(¬p^(q->¬(r v ¬p)))  
+7: ¬¬(¬p^(q->¬(r v ¬p)))  
