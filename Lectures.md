@@ -148,4 +148,15 @@ Testing for grammaticality: pg 35
 ¬(p^q), (¬p^q)  
 Base: p q  
 1:  (p^q)       ¬p
-2: ¬(p^q)      (¬p^q) 
+2: ¬(p^q)      (¬p^q)  
+
+**¬¬(¬p^(q->¬(r v ¬p)))**
+    1            1
+Base:p q r
+1: ¬p, ¬p
+2: (r v ¬p)
+3: ¬(r v ¬p)
+4: (q->¬(r v ¬p))
+5: (¬p^(q->¬(r v ¬p)))
+6: ¬(¬p^(q->¬(r v ¬p)))
+7: ¬¬(¬p^(q->¬(r v ¬p)))
