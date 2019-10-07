@@ -120,7 +120,12 @@ work from inside out and the last 2 place truth functional operator is the **mai
 
 ### 10/7
 
+Page 25:
+<blockquote>
+A only if B --> A <-> B
 
+
+Unless A, B = if not A, then B = (¬A -> B)
 
 
 
