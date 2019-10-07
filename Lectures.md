@@ -122,10 +122,12 @@ work from inside out and the last 2 place truth functional operator is the **mai
 
 Page 25:
 <blockquote>
-A only if B --> A <-> B
-
-
-Unless A, B = if not A, then B = (¬A -> B)  
+Translating Material Conditionals
+A only if B => A -> B
+A if B => B -> A
+A when B => B -> A
+A provided B => B -> A
+A unless B; Unless B, A => ¬B -> A  
   
 </blockquote>    
 	
@@ -138,23 +140,12 @@ p unless q in which case not r
 if not q then p and not r
 **((¬q->p)^¬r)**, could also be **((¬q->p)^(q->¬r))**  
   
-  
-find other reason on page 36 for why not grammitcally correct
+Testing for grammaticality: pg 35  
+*find other reason on page 35 for why not grammitcally correct*  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+##### Scopes
+¬(p^q), (¬p^q)  
+Base: p q  
+1:  (p^q)       ¬p
+2: ¬(p^q)      (¬p^q) 
