@@ -32,7 +32,7 @@ Arg1:
 *billJob=true;*  
 *if(jillJob)*  
 	*jillCommutes=true;*  
-  
+
 *return jillCommutes || !jillCar*   
 
 **Arg1 is valid**
@@ -62,7 +62,7 @@ Page 18:
 | conjunction    | and            | ^         | &&            | but, and    |
 | disjunction    | or             | v         | ||            | or          |
 | conditional    | if, then       | -->       | if            | if          |
-| bi-conditional | if and only if | <->       | if            | 
+| bi-conditional | if and only if | <->       | if            |
 
 *conditional vs bi-conditional? if jill has a job, she commutes. **vs** jill only commutes if she has a job*  
 
@@ -109,7 +109,7 @@ and the second primarily an addition function (with a multiplication function
 used to determine its second argument). A true sentence results from adding
 ‘=25’ to the first and a false sentence results from adding the same to the second.
 But adding ‘=25’ to the original, ambiguous expression results in neither
-a true nor false sentence. 
+a true nor false sentence.
 </blockquote>  
 
 To find main operator:
@@ -128,9 +128,9 @@ A if B => B -> A
 A when B => B -> A  
 A provided B => B -> A  
 A unless B; Unless B, A => ¬B -> A    
-  
+
 </blockquote>    
-	
+
 Ex)  
 **George is happy, unless he goes to work, in which case he doesn't get dessert.**  
 p=George is happy  
@@ -139,7 +139,7 @@ r=George gets dessert
 p unless q in which case not r  
 if not q then p and not r  
 **((¬q->p)^¬r)**, could also be **((¬q->p)^(q->¬r))**  
-  
+
 Testing for grammaticality: pg 35  
 *find other reason on page 35 for why not grammitcally correct*  
 
@@ -151,10 +151,10 @@ Base: p q
 2: ¬(p^q)      (¬p^q)    
 
 **¬¬(¬p^(q->¬(r v ¬p)))**  
-**76 1 5  4 3   2  1**  
-  
+**7_6_1__5__4_3___2__1**  
+
 Base:p q r  
-1: ¬p, ¬p  
+1: ¬p, ¬p *the first acts on a single atomic sentence*  
 2: (r v ¬p)  
 3: ¬(r v ¬p)  
 4: (q->¬(r v ¬p))  
