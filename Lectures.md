@@ -163,41 +163,11 @@ Base:p q r
 7: ¬¬(¬p^(q->¬(r v ¬p)))  
 
 ### 10/9
-Truth Tables
+Basic Truth Tables
 <table>
-<tr><td><b>¬A</td></tr>
-<tr><td>F T</td></tr>
-<tr><td>T F</td></tr>
-</table>
-
-<table>
-<tr><td><b>A ^ B</td></tr>
-<tr><td>T <b>T</b> T</td></tr>
-<tr><td>T <b>F</b> F</td></tr>
-<tr><td>F <b>F</b> T</td></tr>
-<tr><td>F <b>F</b> F</td></tr>
-</table>
-<table>
-
-<tr><td><b>A v B</td></tr>
-<tr><td>T <b>T</b> T</td></tr>
-<tr><td>T <b>T</b> F</td></tr>
-<tr><td>F <b>T</b> T</td></tr>
-<tr><td>F <b>F</b> F</td></tr>
-</table>
-
-<table>
-<tr><td><b>A -> B</td></tr>
-<tr><td>T <b>T</b> T</td></tr>
-<tr><td>T <b>F</b> F</td></tr>
-<tr><td>F <b>T</b> T</td></tr>
-<tr><td>F <b>T</b> F</td></tr>
-</table>
-
-<table>
-<tr><td><b>A <-> B</td></tr>
-<tr><td>T <b>T</b> T</td></tr>
-<tr><td>T <b>F</b> F</td></tr>
-<tr><td>F <b>F</b> T</td></tr>
-<tr><td>F <b>T</b> F</td></tr>
+<tr><td><b>¬A</td><td><b>A ^ B</td><td><b>A v B</td><td><b>A ^ B</td><td><b>A <-> B</td> </tr>
+<tr><td>F T</td><td>T <b>T</b> T</td><td>T <b>T</b> T</td><td>T <b>T</b> T</td><td>T <b>T</b> T</td> </tr>
+<tr><td>T F</td><td>T <b>F</b> F</td><td>T <b>T</b> F</td><td>T <b>F</b> F</td><td>T <b>F</b> F</td> </tr>
+<tr><td></td><td>F <b>F</b> T</td><td>F <b>T</b> T</td><td>F <b>F</b> T</td><td>F <b>F</b> T</td> </tr>
+<tr><td></td><td>F <b>F</b> F</td><td>F <b>F</b> F</td><td>F <b>F</b> F</td><td>F <b>T</b> F</td> </tr>
 </table>
