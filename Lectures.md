@@ -163,23 +163,24 @@ Base:p q r
 7: ¬¬(¬p^(q->¬(r v ¬p)))  
 
 ### 10/9
-Basic Truth Tables*  
+Basic Truth Tables  
 *page 89*  
 <table>
-<tr><td><b>¬A</td><td><b>A ^ B</td><td><b>A v B</td><td><b>A ^ B</td><td><b>A <-> B</td> </tr>
+<tr><td><b>¬A</td><td><b>A ^ B</td><td><b>A v B</td><td><b>A -> B</td><td><b>A <-> B</td> </tr>
 <tr><td><b>F</b> T</td><td>T <b>T</b> T</td><td>T <b>T</b> T</td><td>T <b>T</b> T</td><td>T <b>T</b> T</td> </tr>
 <tr><td><b>T</b> F</td><td>T <b>F</b> F</td><td>T <b>T</b> F</td><td>T <b>F</b> F</td><td>T <b>F</b> F</td> </tr>
-<tr><td></td><td>F <b>F</b> T</td><td>F <b>T</b> T</td><td>F <b>F</b> T</td><td>F <b>F</b> T</td> </tr>
-<tr><td></td><td>F <b>F</b> F</td><td>F <b>F</b> F</td><td>F <b>F</b> F</td><td>F <b>T</b> F</td> </tr>
+<tr><td></td><td>F <b>F</b> T</td><td>F <b>T</b> T</td><td>F <b>T</b> T</td><td>F <b>F</b> T</td> </tr>
+<tr><td></td><td>F <b>F</b> F</td><td>F <b>F</b> F</td><td>F <b>T</b> F</td><td>F <b>T</b> F</td> </tr>
 </table>
 
 **bold is output*  
 Example:  
+Work by scope degrees  
 Base: ¬(p -> (q ^ p)) or (¬(p -> q) ^ p)  
 <table>
 <tr><td>pq</td><td>¬(p -> (q ^ p))</td></tr>
-<tr><td>T T</td><td>(p</td></tr>
-<tr><td>T F</td><td></td></tr>
-<tr><td>F T</td><td></td></tr>
-<tr><td>F F</td><td></td></tr>
+<tr><td>T T</td><td>¬(T ->(T ^ T))</td><td>¬(T ->T)</td><td>¬T</td><td>F</td></tr>
+<tr><td>T F</td><td>¬(T ->(F ^ T))</td><td>¬(T ->F)</td><td>¬F</td><td>T</td></tr>
+<tr><td>F T</td><td>¬(F ->(T ^ F))</td><td>¬(F ->F)</td><td>¬T</td><td>F</td></tr>
+<tr><td>F F</td><td>¬(F ->(F ^ F))</td><td>¬(F ->F)</td><td>¬F</td><td>T</td></tr>
 </table>
