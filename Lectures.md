@@ -178,9 +178,9 @@ Example:
 Work by scope degrees  
 Base: ¬(p -> (q ^ p)) or (¬(p -> q) ^ p)  
 <table>
-<tr><td>pq</td><td>¬(p -> (q ^ p))</td></tr>
+<tr><td>pq</td><td>¬(p -> (q ^ p))</td><td> **Pay attention to scope degrees** </td></tr>
 <tr><td>T T</td><td>¬(T ->(T ^ T))</td><td>¬(T ->T)</td><td>¬T</td><td>F</td></tr>
 <tr><td>T F</td><td>¬(T ->(F ^ T))</td><td>¬(T ->F)</td><td>¬F</td><td>T</td></tr>
 <tr><td>F T</td><td>¬(F ->(T ^ F))</td><td>¬(F ->F)</td><td>¬T</td><td>F</td></tr>
-<tr><td>F F</td><td>¬(F ->(F ^ F))</td><td>¬(F ->F)</td><td>¬F</td><td>T</td></tr>
+<tr><td>F F</td><td>¬(F ->(F ^ F))</td><td>¬(F ->F)</td><td>¬T</td><td>F</td></tr>
 </table>
