@@ -175,10 +175,11 @@ Basic Truth Tables
 
 **bold is output*  
 Example:  
+*p64*  
 Work by scope degrees  
 Base: ¬(p -> (q ^ p)) or (¬(p -> q) ^ p)  
 <table>
-<tr><td>pq</td><td>¬(p -> (q ^ p))</td><td> **Pay attention to scope degrees** </td></tr>
+<tr><td>pq</td><td>¬(p -> (q ^ p))</td><td></td><td></td><td></td></tr>
 <tr><td>T T</td><td>¬(T ->(T ^ T))</td><td>¬(T ->T)</td><td>¬T</td><td>F</td></tr>
 <tr><td>T F</td><td>¬(T ->(F ^ T))</td><td>¬(T ->F)</td><td>¬F</td><td>T</td></tr>
 <tr><td>F T</td><td>¬(F ->(T ^ F))</td><td>¬(F ->F)</td><td>¬T</td><td>F</td></tr>
@@ -191,7 +192,18 @@ Base: ¬(p -> (q ^ p)) or (¬(p -> q) ^ p)
 | T T F | ((¬(T ^ T) v (T -> ¬F)) -> T) | ((¬T v (T -> T)) -> T) | ((F v T) -> T) | (T -> T) | T |
 | T F T | ((¬(T ^ F) v (F -> ¬T)) -> T) | ((¬F v (F -> F)) -> T) | ((T v T) -> T) | (T -> T) | T |
 | T F F | ((¬(T ^ F) v (F -> ¬F)) -> T) | ((¬F v (F -> T)) -> T) | ((T v T) -> T) | (T -> T) | T |
-| F T T | ((¬(F ^ T) v (T -> ¬T)) -> F) | ((¬F v (T -> F)) -> F) | ((T v F) -> F) | ()
-| F T F | ((¬(p ^ q) v (q -> ¬r)) -> p) |
-| F F T | ((¬(p ^ q) v (q -> ¬r)) -> p) |
-| F F F | ((¬(p ^ q) v (q -> ¬r)) -> p) |
+| F T T | ((¬(F ^ T) v (T -> ¬T)) -> F) | ((¬F v (T -> F)) -> F) | ((T v F) -> F) | (T -> F) | F |
+| F T F | ((¬(p ^ q) v (q -> ¬r)) -> p) | ((¬F v (T -> T)) -> F) |
+| F F T | ((¬(p ^ q) v (q -> ¬r)) -> p) | ((¬F v (F -> F)) -> F)
+| F F F | ((¬(p ^ q) v (q -> ¬r)) -> p) | ((¬F v (F -> T)) -> F)
+
+### Discussion
+Logical Status:
+* Contingent; true in some and false in some interpretations  
+* Logically true; all rows are true  
+* Logically false; all rows are false  
+
+*any sentence of PL is only one of these status*  
+
+##### Consistency:
+There exists and interpretation where all sentences are true (not including atomic definitions)
