@@ -1,5 +1,5 @@
-# Logic Lecture
-
+# Logic Lectures
+***
 ### 9/30
 #### Review syl for testing schedule
 
@@ -48,7 +48,7 @@ turns into
 *== !(jillCar)*  
 
 
-
+***
 ### 10/2
 #### Reviewing how to submit problems sets
 * Submit to TA
@@ -117,7 +117,7 @@ To find main operator:
 **The 2nd ^**  
 work from inside out and the last 2 place truth functional operator is the **main operator**  
 
-
+***
 ### 10/7
 
 Page 25:
@@ -161,7 +161,7 @@ Base:p q r
 5: (¬p^(q->¬(r v ¬p)))  
 6: ¬(¬p^(q->¬(r v ¬p)))  
 7: ¬¬(¬p^(q->¬(r v ¬p)))  
-
+***
 ### 10/9
 Basic Truth Tables  
 *page 89*  
@@ -207,3 +207,6 @@ Base: ¬(p -> (q ^ p)) or (¬(p -> q) ^ p)
 
 ##### Consistency:
 There exists and interpretation where all sentences are true (not including atomic definitions)
+***
+
+### 10/14
