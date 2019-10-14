@@ -209,8 +209,14 @@ Base: ¬(p -> (q ^ p)) or (¬(p -> q) ^ p)
 There exists and interpretation where all sentences are true (not including atomic definitions)
 ***
 
-### 10/14
+### 10/14 : Quiz
 *HWs due on Saturdays, not Mondays*  
 ##### Joint truth tables
 *Squiggly I means interpretation*
 * Going over Logical Status again
+
+Shortcuts for symbols:
+* Gamma Γ alt+226
+* Negation ¬ alt+170
+* Biconditional ↔ alt+29
+* Conditional → alt+26
