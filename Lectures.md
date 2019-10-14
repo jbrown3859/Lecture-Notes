@@ -206,7 +206,7 @@ Base: ¬(p -> (q ^ p)) or (¬(p -> q) ^ p)
 *any sentence of PL is only one of these status*  
 
 ##### Consistency:
-There exists and interpretation where all sentences are true (not including atomic definitions)
+There exists and interpretation where all sentences (Γ)(gamma) are true (not including atomic definitions)
 ***
 
 ### 10/14 : Quiz
