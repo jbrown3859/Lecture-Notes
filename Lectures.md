@@ -173,7 +173,7 @@ Basic Truth Tables
 <tr><td></td><td>F <b>F</b> F</td><td>F <b>F</b> F</td><td>F <b>T</b> F</td><td>F <b>T</b> F</td> </tr>
 </table>
 
-**bold is output*  
+**bold is output**  
 Example:  
 *p64*  
 Work by scope degrees  
@@ -193,15 +193,15 @@ Base: ¬(p -> (q ^ p)) or (¬(p -> q) ^ p)
 | T F T | ((¬(T ^ F) v (F -> ¬T)) -> T) | ((¬F v (F -> F)) -> T) | ((T v T) -> T) | (T -> T) | T |
 | T F F | ((¬(T ^ F) v (F -> ¬F)) -> T) | ((¬F v (F -> T)) -> T) | ((T v T) -> T) | (T -> T) | T |
 | F T T | ((¬(F ^ T) v (T -> ¬T)) -> F) | ((¬F v (T -> F)) -> F) | ((T v F) -> F) | (T -> F) | F |
-| F T F | ((¬(p ^ q) v (q -> ¬r)) -> p) | ((¬F v (T -> T)) -> F) | ((T v T) -> F) | () |  |
-| F F T | ((¬(p ^ q) v (q -> ¬r)) -> p) | ((¬F v (F -> F)) -> F) | ((T v T) -> F) | () |  |
-| F F F | ((¬(p ^ q) v (q -> ¬r)) -> p) | ((¬F v (F -> T)) -> F) | ((T v T) -> F) | () |  |
+| F T F | ((¬(p ^ q) v (q -> ¬r)) -> p) | ((¬F v (T -> T)) -> F) | ((T v T) -> F) | (T -> F) | F |
+| F F T | ((¬(p ^ q) v (q -> ¬r)) -> p) | ((¬F v (F -> F)) -> F) | ((T v T) -> F) | (T -> F) | F |
+| F F F | ((¬(p ^ q) v (q -> ¬r)) -> p) | ((¬F v (F -> T)) -> F) | ((T v T) -> F) | (T -> F) | F |
 
 ### Discussion
 ##### Logical Status:
 * Contingent; true in some and false in some interpretations  
 * Logically true; all rows are true  
-* Logically false; all rows are false  
+* Logically false; all rows are false == contradiction  
 
 *any sentence of PL is only one of these status*  
 
@@ -210,3 +210,7 @@ There exists and interpretation where all sentences are true (not including atom
 ***
 
 ### 10/14
+*HWs due on Saturdays, not Mondays*  
+##### Joint truth tables
+*Squiggly I means interpretation*
+* Going over Logical Status again
