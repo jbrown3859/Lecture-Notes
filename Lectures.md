@@ -221,6 +221,24 @@ Shortcuts for symbols:
 * Biconditional ↔ alt+29
 * Conditional → alt+26
 
-
+***
 ### 10/16
-**Validity == logical consequence**
+**Validity == logical consequence**  
+##### Single sentence
+* Contingent
+* Logical Truth
+* Logical Falsity  
+
+##### Set of sentences
+* Consistency/Inconsistency
+* Logical equivalence  
+
+##### Arguments
+* Logical consequence  
+
+Γ (gamma) (set of sentences) is consistent if there is a possibility where all arguments are true  
+Γ is Inconsistent if for every interpretation there is at least one sentence that is false
+* ex) ( p v q ) , ¬ ( p v q )  
+
+##### Logical Equivalence
+Every sentence's truth value per interpretation is the same
