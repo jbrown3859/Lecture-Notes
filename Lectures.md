@@ -241,4 +241,12 @@ Shortcuts for symbols:
 * ex) ( p v q ) , ¬ ( p v q )  
 
 ##### Logical Equivalence
-Every sentence's truth value per interpretation is the same
+Every sentence's truth value per interpretation is the same  
+ex) p, ¬¬p  
+
+##### Logical Consequence
+*A* is the logical consequence of set Γ, such that Γ |= *A*, just in case it is absolutely impossible for all of the sentences in Γ to be true together while *A* is false  
+*A* shows that validity exists  
+##### Countermodel
+Call in interpretation that makes all of the sentences in Γ true while making *A* false a countermodel to the claim that Γ |= *A*  
+* *|= is the symbol for logical Consequence, |= with a not equals for Logical Inconsequence*  
