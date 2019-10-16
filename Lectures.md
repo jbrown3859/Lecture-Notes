@@ -250,3 +250,11 @@ ex) p, ¬¬p
 ##### Countermodel
 Call in interpretation that makes all of the sentences in Γ true while making *A* false a countermodel to the claim that Γ |= *A*  
 * *|= is the symbol for logical Consequence, |= with a not equals for Logical Inconsequence*  
+
+##### Formatting
+Separate premises and conclusion in truth table with double vertical lines  
+Separate premises with single vertical line  
+Label scope degrees, rows  
+Cross out used columns with vertical line
+##### Example
+Is the claim (p v ¬q), ¬q |= ¬p true?
