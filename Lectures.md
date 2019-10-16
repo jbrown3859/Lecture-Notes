@@ -220,3 +220,7 @@ Shortcuts for symbols:
 * Negation ¬ alt+170
 * Biconditional ↔ alt+29
 * Conditional → alt+26
+
+
+### 10/16
+**Validity == logical consequence**
