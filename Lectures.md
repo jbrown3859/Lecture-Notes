@@ -253,6 +253,7 @@ Call in interpretation that makes all of the sentences in Γ true while making *
 * Premises are consistent but the conclusion is false
 * Existence of a countermodel voids logical consequence
 * Non-Existence of a countermodel proves logical consequence
+
 ##### Formatting
 Separate premises and conclusion in truth table with double vertical lines  
 Separate premises with single vertical line  
@@ -261,3 +262,17 @@ Cross out used columns with vertical line
 ##### Example
 Is the claim (p v ¬q), ¬q |= ¬p true?  
 *Draw truth table*  
+##### Ex 2
+1. Someone acts of their own free will only if they could have done otherwise, unless every event has a cause.
+2. Every event has a cause if and only if no one could have done otherwise.  
+3. |= No one acts of their own free will if no one could have done otherwise.
+
+###### Translation manual  
+p= Someone acts of her/his own free will  
+q= they could have done otherwise  
+r= every event has a cause
+
+###### Translation
+1. ¬r → (p → q)
+2. (r ↔ ¬q)
+3. |= (¬q → ¬p)
