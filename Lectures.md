@@ -276,3 +276,7 @@ r= every event has a cause
 1. ¬r → (p → q)
 2. (r ↔ ¬q)
 3. |= (¬q → ¬p)
+
+
+### 10/21
+*Review Logical Status*  
