@@ -314,3 +314,6 @@ ex) "must be true" == ¬ "could be false", "could be true" == ¬ "must be false"
 		<td> Someone is not sitting </td>
 	</tr>
 </table>
+
+### 10/30
+Going over the midterm and some ordering and grouping logic game examples
