@@ -303,7 +303,7 @@ r= every event has a cause
 		<td> could be false </td>
 	</tr>
 </table>
-EX) must be true == ¬ could be false, could be true == ¬ must be false
+ex) "must be true" == ¬ "could be false", "could be true" == ¬ "must be false"
 <table>
 	<tr>
 		<td> Everyone is sitting </td>
