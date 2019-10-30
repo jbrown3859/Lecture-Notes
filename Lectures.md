@@ -64,7 +64,7 @@ Page 18:
 | conditional    | if, then       | -->       | if            | if          |
 | bi-conditional | if and only if | <->       | if            |
 
-*conditional vs bi-conditional? if jill has a job, she commutes. **vs** jill only commutes if she has a job*  
+*conditional vs bi-conditional? if jill has a job, she commutes. vs jill only commutes if she has a job*  
 
 1. Jill **and** Bill **both** have jobs  
 2. **If** Jill has a job, **then** she commutes  
@@ -73,14 +73,14 @@ C. **Either** Jill commutes **or** she does**n't** have a car
 
 
 ##### Atomic Parts (smallest complete sentences inbetween logic separations):  
-*p: Jill has a job
-*q: Bill has a job  
+* p: Jill has a job
+* q: Bill has a job  
 
-*p:Jill has a job
-*r: Jill commutes  
+* p:Jill has a job
+* r: Jill commutes  
 
-*r: Jill commutes
-*s: Jill owns a car
+* r: Jill commutes
+* s: Jill owns a car
 
 ##### Replace with symbols
 (p /\ q)    ==    p && q
@@ -89,9 +89,9 @@ C. **Either** Jill commutes **or** she does**n't** have a car
 
 ### Discussion 10/3
 Ways to show validity:
-*Direct: show how every case works
-*Reductio ad absurdum: Assume conclusion is false to show how the argument falls apart
-*Derivation  
+* Direct: show how every case works
+* Reductio ad absurdum: Assume conclusion is false to show how the argument falls apart
+* Derivation  
 
 Contrary: Both cant be true at once
 Contradictory: Only one is true  
@@ -280,3 +280,37 @@ r= every event has a cause
 
 ### 10/21
 *Review Logical Status*  
+
+### 10/28
+**Contrapositive:**  
+* (A→B)==(¬B→¬A)  
+* Equivalent to original conditional
+**Converse**  
+* (A→B)==(B→A)  
+
+**Sufficient vs Necessary condition**  
+* Sufficient: A's condition is enough for B's truth inn (A→B)
+* Necessary: The consequent B in the sentence (A→B) is a Necessary condition for the truth if the antecedent A. Intuitively, B's being true is required for A's being true  
+
+**A square of opposites:**
+<table>
+	<tr>
+		<td> must be true </td>
+		<td> must be false </td>
+	</tr>
+	<tr>
+		<td> could be true </td>
+		<td> could be false </td>
+	</tr>
+</table>
+EX) must be true == ¬ could be false, could be true == ¬ must be false
+<table>
+	<tr>
+		<td> Everyone is sitting </td>
+		<td> No one is sitting </td>
+	</tr>
+	<tr>
+		<td> Someone is sitting </td>
+		<td> Someone is not sitting </td>
+	</tr>
+</table>
