@@ -282,17 +282,18 @@ r= every event has a cause
 *Review Logical Status*  
 
 ### 10/28
-**Contrapositive:**  
+##### Contrapositive:  
 * (A→B)==(¬B→¬A)  
 * Equivalent to original conditional
-**Converse**  
+
+##### Converse  
 * (A→B)==(B→A)  
 
-**Sufficient vs Necessary condition**  
+##### Sufficient vs Necessary condition  
 * Sufficient: A's condition is enough for B's truth inn (A→B)
 * Necessary: The consequent B in the sentence (A→B) is a Necessary condition for the truth if the antecedent A. Intuitively, B's being true is required for A's being true  
 
-**A square of opposites:**
+##### A square of opposites:
 <table>
 	<tr>
 		<td> must be true </td>
@@ -317,3 +318,11 @@ ex) "must be true" == ¬ "could be false", "could be true" == ¬ "must be false"
 
 ### 10/30
 Going over the midterm and some ordering and grouping logic game examples
+
+### 10/31 Halloween
+##### Discussion  
+Contrapositive is equivalent to original, converse and inverse are not.  
+Converse == contrapositive of inverse  
+
+##### Necessary vs sufficient
+Water is necessary but not sufficient for life  
