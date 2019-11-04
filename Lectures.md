@@ -326,3 +326,30 @@ Converse == contrapositive of inverse
 
 ##### Necessary vs sufficient
 Water is necessary but not sufficient for life  
+
+### 02/04
+##### Indirect Proofs to Prove the NONEXISTENCE of a certain Kind of Interpretation
+*See indirect proofs notes, posted later*  
+##### Reductio ad absurdum
+* Assume a claim is truth, show that the assumption leads to a contradiction  
+
+Ex)  
+* Show p ^ q |= p v q  
+
+**Stage 1**  
+1. Assume CM
+2. p ^ q is true in I
+3. p v q is false in I  
+**Stage 2**  
+By 2 + T^,
+4. p is true in I and
+5. q is true in I  
+
+By 3 + Fv,
+6. p is false in I and
+7. q is false in I  
+
+By 4, p is true, but by 6, p is false, so out initial assumption is false  
+
+
+***See Cheatsheet for proper notes*** 
