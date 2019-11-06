@@ -383,4 +383,16 @@ By 3 + ¬T
 4. p is true in I
 **Stage 3**  
 By 2, p is false. By 4, p is true.  
-So, there is no such interpretation
+So, there is no such interpretation  
+
+***
+Show { ( ( p -> p ) -> q ) , ( p -> ( p -> q ) ) } are equivalent  
+##### Stage 1
+
+1. ( ( p -> p ) -> q ) is true in I
+2. ( p -> ( p -> q ) ) is false in I
+
+##### Stage 2
+By 1 + ->T, EITHER  
+3. (p -> p) is false in I  
+(CONTINUE LATER. NOT DONE)
