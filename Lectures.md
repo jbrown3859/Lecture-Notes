@@ -327,7 +327,7 @@ Converse == contrapositive of inverse
 ##### Necessary vs sufficient
 Water is necessary but not sufficient for life  
 
-### 02/04
+### 11/04
 ##### Indirect Proofs to Prove the NONEXISTENCE of a certain Kind of Interpretation
 *See indirect proofs notes, posted later*  
 ##### Reductio ad absurdum
@@ -337,19 +337,50 @@ Ex)
 * Show p ^ q |= p v q  
 
 **Stage 1**  
-1. Assume CM
-2. p ^ q is true in I
-3. p v q is false in I  
+Assume CM
+1. p ^ q is true in I
+2. p v q is false in I  
 **Stage 2**  
-By 2 + T^,
-4. p is true in I and
-5. q is true in I  
+By 1 + T^,
+3. p is true in I and
+4. q is true in I  
 
-By 3 + Fv,
-6. p is false in I and
-7. q is false in I  
+By 2 + Fv,
+5. p is false in I and
+6. q is false in I  
+**Stage 3**  
+By 3, p is true, but by 5, p is false, so out initial assumption is false  
 
-By 4, p is true, but by 6, p is false, so out initial assumption is false  
 
+***See Cheatsheet for proper notes, wait for Discussion***  
+### 11/06
+Show that p and ¬¬p are equivalent  
+Show no interpretation where p is true ands ¬¬p is false  
+And no interpretation where ¬¬p is true and p is false  
+Assume Countermodel existence  
+**Stage 1[reductio assumption]**  
+1. p is true in I
+2. ¬¬p is false in I
+**Stage 2[unpacking truth complexity]**  
+By 2 + ¬F,  
+3. ¬p is true in I
 
-***See Cheatsheet for proper notes*** 
+By 3 + ¬T,  
+4. ¬p is false in I
+**Stage 3[draw out contradiction]**  
+By 1, p is true. By 4, p is false. **Contradiction**  
+So, there is no such interpretation  
+
+***Prove other way as well***  
+**Stage 1**  
+1. ¬¬p is true in I
+2. p is false in I
+**Stage 2**  
+By 1 + ¬T  
+3. ¬p is false in I
+
+By 3 + ¬T  
+4. p is true in I
+**Stage 3**  
+By 2, p is false. By 4, p is true.  
+So, there is no such interpretation
