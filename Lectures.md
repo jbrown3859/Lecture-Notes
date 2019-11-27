@@ -396,3 +396,18 @@ Show { ( ( p -> p ) -> q ) , ( p -> ( p -> q ) ) } are equivalent
 By 1 + ->T, EITHER  
 3. (p -> p) is false in I  
 (CONTINUE LATER. NOT DONE)
+
+### 11/27
+##### Post Midterm, into ¬I lecture for derivations; See paper notes for derivation notes
+<br>
+<b>¬Intro</b>
+<br>
+p, ¬p |- ¬r<br>
+| 1. p<br>
+| 2. ¬p<br>
+|--<br>
+| 3.| r<br>
+| |--<br>
+| 4. ¬r     ¬Intro: 3, (1,2)  // Show an existing contradiction<br>
+<br>
+* Modus Tollens*
