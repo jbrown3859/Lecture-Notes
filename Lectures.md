@@ -410,4 +410,12 @@ p, ¬p |- ¬r<br>
 | |--<br>
 | 4. ¬r     ¬Intro: 3, (1,2)  // Show an existing contradiction<br>
 <br>
-* Modus Tollens*
+{ ¬q, (p -> q) |- ¬p }<br> ***Modus Tollens*** // p. 113<br>
+<br>
+| 1. ¬q      Hyp<br>
+| 2. (p -> q)    Hyp<br>
+|--<br>
+|  |3. p    Hyp<br>
+|  |--<br>
+|  |4. q    ->E 2,3<br>
+| 5. ¬p    ¬Intro 3, (1,4)
