@@ -411,7 +411,7 @@ p, ¬p |- ¬r<br>
 | 4. ¬r     ¬Intro: 3, (1,2)  // Show an existing contradiction<br>
 <br>
 { ¬q, (p -> q) |- ¬p }<br>
-<b><i>Modus Tollens</b></i> <br> 
+<b><i>Modus Tollens</b></i> <br>
 // p. 113<br>
 <br>
 | 1. ¬q      Hyp<br>
@@ -425,3 +425,30 @@ p, ¬p |- ¬r<br>
 ### 12/2
 ##### Review on ¬I
 ##### Going over PS9
+Law of excluded middle  
+|- p v ¬p
+<br><br>
+|//no premises  
+|-  
+| | ¬(p v ¬p)  
+| |-  
+| | | p  
+| | |-  
+| | | p v ¬p  
+| | ¬p  
+| | p v ¬p  
+| ¬¬(p v ¬p)
+| p v ¬p  
+// *see pic*  
+<br><br>
+##### v Elim
+| i. A v B  
+|-|-  
+| | j. A  
+| |-  
+| | k. C  
+|  
+| | l. B  
+| |-  
+| | m. C  
+| n. C <b>v Elim: i, (j, k)
