@@ -442,13 +442,13 @@ Law of excluded middle
 // *see pic*  
 <br><br>
 ##### v Elim
-| i. A v B  
+| i. p v q **hyp**  
 |-|-  
-| | j. A  
+| | j. p **hyp**  
 | |-  
-| | k. C  
+| | k. q v p **v Intro *j***  
 |  
-| | l. B  
+| | l. q **hyp**  
 | |-  
-| | m. C  
-| n. C <b>v Elim: i, (j, k)
+| | m. q v p **v Intro *l***  
+| n. q v p **v Elim: i, (j, k), (l, m)**
