@@ -410,7 +410,9 @@ p, ¬p |- ¬r<br>
 | |--<br>
 | 4. ¬r     ¬Intro: 3, (1,2)  // Show an existing contradiction<br>
 <br>
-{ ¬q, (p -> q) |- ¬p }<br> ***Modus Tollens*** // p. 113<br>
+{ ¬q, (p -> q) |- ¬p }<br>
+<b><i>Modus Tollens</b></i> <br> 
+// p. 113<br>
 <br>
 | 1. ¬q      Hyp<br>
 | 2. (p -> q)    Hyp<br>
@@ -419,3 +421,7 @@ p, ¬p |- ¬r<br>
 |  |--<br>
 |  |4. q    ->E 2,3<br>
 | 5. ¬p    ¬Intro 3, (1,4)
+
+### 12/2
+##### Review on ¬I
+##### Going over PS9
