@@ -428,7 +428,7 @@ p, ¬p |- ¬r<br>
 Law of excluded middle  
 |- p v ¬p
 <br><br>
-|//no premises  
+| //no premises  
 |-  
 | | ¬(p v ¬p)  
 | |-  
@@ -452,3 +452,32 @@ Law of excluded middle
 | |-  
 | | m. q v p **v Intro *l***  
 | n. q v p **v Elim: i, (j, k), (l, m)**
+
+### 12/4
+##### Going over the second Midterm
+###### For 28, base derivation on <i> The Law of excluded Middle</i>
+p v (q v r) |- (p v q) v r  
+| p v (q v r)  
+|-
+| | p  
+| |-  
+| | p v q <b>v I:2</b>  
+| | (p v q) v r <b>v I:3</b>  
+|  
+| | q v r  
+| |-  
+| | | q  
+| | |-  
+| | | p v q  
+| | | (p v q) v r <b>v I</b>  
+| |  
+| | | r  
+| | |-  
+| | | (p v q) v r <b>v I</b>  
+| | (p v q) v r  
+|  
+| (p v q) v r <b>v E: 1, (,), (,)</b>  
+
+###### 19
+p v q, ¬q v r |- p v r  
+***see pic, contradiction***
