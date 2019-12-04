@@ -481,3 +481,4 @@ p v (q v r) |- (p v q) v r
 ###### 19
 p v q, ¬q v r |- p v r  
 ***see pic, contradiction***
+###### You Decide Lectures .pdf
